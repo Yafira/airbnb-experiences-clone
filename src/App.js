@@ -1,14 +1,13 @@
-import React from "react"
-import Navbar from "./components/Navbar"
-/*
-Challenge: Build the Hero component.
-Check the Figma file for the design specifics.
-*/
+import React from 'react';
+import './App.css';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
 
 export default function App() {
-    return (
-        <div>
-            <Navbar />
-        </div>
-    )
+	return (
+		<div>
+			<Navbar />
+			<Hero />
+		</div>
+	);
 }
