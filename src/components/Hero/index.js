@@ -1,5 +1,4 @@
 import React from 'react';
-//import photoGrid from ;
 import './hero.css';
 
 export default function Hero() {

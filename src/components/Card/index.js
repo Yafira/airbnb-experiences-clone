@@ -1,5 +1,4 @@
 import React from 'react';
-//import star from '/star.png';
 
 export default function Card(props) {
 	return (
@@ -9,7 +8,7 @@ export default function Card(props) {
 				<img src={'/images/star.png'} />
 				<span>{props.rating}</span>
 				<span className='gray'>({props.reviewCount}) • </span>
-				<span className='gray'>{props.country}</span>
+				<span className='gray'>{props.location}</span>
 			</div>
 			<p>{props.title}</p>
 			<p>
