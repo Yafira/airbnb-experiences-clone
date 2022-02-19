@@ -6,7 +6,6 @@ import Card from './components/Card';
 import data from './data';
 
 export default function App() {
-	// <Hero />
 	const cards = data.map((item) => {
 		return <Card key={item.id} {...item} />;
 	});
@@ -14,6 +13,7 @@ export default function App() {
 	return (
 		<div>
 			<Navbar />
+			<Hero />
 			<section className='cards-list'>{cards}</section>
 		</div>
 	);
