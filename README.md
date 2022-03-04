@@ -6,7 +6,7 @@ In this project, I built an airbnb experience page to learn and implement React 
 
 - [x] Learn about props
 - [x] Learn about data flow through props
-- [x] Mapping: use array maps with JSX to create mutiple components
+- [x] Mapping data: use array maps with JSX to create mutiple components
 - [x] Conditioning on HTML elements with props
 - [x] Learn about react-create-app and use it to create a react project from scratch
 
